@@ -1,0 +1,29 @@
+{
+    "name": "karma-paine",
+    "version": "0.1.0",
+    "description": "A karma test reporter that makes sense",
+    "scripts": {
+        "test": "grunt test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mattjmorrison/karma-paine"
+    },
+    "keywords": [
+        "karma-plugin",
+        "karma-reporter"
+    ],
+    "author": "Matthew J. Morrison <mattjmorrison@mattjmorrison.com>",
+    "peerDependencies": {
+        "karma": ">=0.12.21"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "load-grunt-config": "*",
+        "grunt-karma": "*",
+        "karma-qunit": "*",
+        "karma-phantomjs-launcher": "*",
+        "karma": ">=0.12.21",
+        "grunt": "*"
+    }
+}
